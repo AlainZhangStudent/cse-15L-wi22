@@ -1,3 +1,3 @@
 Hello World
 
-[Link](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1)
+[Link](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/labreport1)
