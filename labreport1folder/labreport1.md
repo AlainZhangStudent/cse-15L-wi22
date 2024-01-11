@@ -8,7 +8,7 @@ Ls with no arguments outputted the available directories and files in pwd becaus
 
 Ls with a path to a directory outputted available directories and files in the given path because ls lists all the present files and folders, and in this case, everything present in the path of the directory
 
-Ls with a path to a file outputted the path to the file itself which makes sense because if you list a singular file that's itself then it'll return itself
+Ls with a path to a file outputted an error ```ls: cannot access...: No such file or directory``` because we were trying to get a list from a specific file.
 
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/cd.png)
@@ -26,6 +26,6 @@ Cd with an argument to a file gave an error ```bash: cd: messages/en-us.txt: Not
 
 Cat with no arguments stdout whatever arguments came after the command, which makes sense since cat reads the contents/reads its arguments and echoes it back
 
-Cat with an argument to a path to a directory echoes back the type of object it is, i.e a directory, and its name because a directory isn't a text file that can be read sequentially. So its an error.
+Cat with an argument to a path to a directory gave an error ```cat: lecture1: is a directory``` since we were trying to read sequentially from a directory itself instead of a file content.
 
 Cat with an argument to a text file (or path to a txtfile) will echo out its contents which makes sense because cat command reads its arguments and its contents
