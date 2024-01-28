@@ -1,3 +1,5 @@
+Part 1:
+
 This is the code for ChatServer.java
 
 ```
@@ -56,15 +58,28 @@ class ChatServer {
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
 
 
-    Which methods in your code are called?
-    What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-    How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+Which methods in your code are called?
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
 
 
-    Which methods in your code are called?
-    What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-    How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+Which methods in your code are called?
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+Part 2:
+
+Here is the absolute path to the private key for the SSH key
+
+Here is the absolute path to the public key for the SSH key
+
+Here is the terminal interaction where I login
+
+
+Part 3:
+
+I learned something pretty cool about openssh protocols, specifically how private keys and public keys are like locks and keys that check if you have the right key for the ssh to the server. I didn't know the default was authentication_keys for the serverend and the private being in the .ssh directory.
 
