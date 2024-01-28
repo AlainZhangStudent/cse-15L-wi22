@@ -55,13 +55,13 @@ class ChatServer {
 ```
 2 screenshots using /add-message
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labs2s1.png)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/lab2s1.png)
 
-The methods being called are ```main```, which runs the program, and ```handleRequest``` which handles the incoming HTTP requests. The relevant arguments for main are Strings[] args which represent the command line arguments, and the values of relevant fields are the port variable which is initialized based on the port number given in the args. The port variable is set to the integer value parsed from the command line. The relevant arguments for handRequest method are the URI url, type URI. and the field tracker accumulates the messages by users and errors. The field changes when something is posted to the url query and it gets appended to the tracker variable when using the right format. 
+The methods being called are ```main```, which runs the program, and ```handleRequest``` which handles the incoming HTTP requests. The relevant arguments for ```main``` are ```Strings[] args``` which represent the command line arguments, and the values of relevant fields are the ```port``` variable which is initialized based on the ```port``` number given in the ```args```. The ```port``` variable is set to the integer value parsed from the command line. The relevant arguments for ```handRequest``` method are the ```URI url```, type ```URI```. and the field tracker accumulates the messages by users and errors. The field changes when something is posted to the url query and it gets appended to the ```tracker``` variable when using the right format. 
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labs2s2.png)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labss2.png)
 
-Same explanation as above except in action, the tracker variable is tracking the messages inputted as shown in the image.
+Same explanation as above except in action, the ```tracker``` variable is tracking the messages inputted as shown in the image.
 
 Part 2:
 
