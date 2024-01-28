@@ -1,6 +1,7 @@
 This is the code for ChatServer.java
 
-```import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -48,6 +49,22 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}```
+}
+```
+2 screenshots using /add-message
 
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
+
+
+    Which methods in your code are called?
+    What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+    How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
+
+
+    Which methods in your code are called?
+    What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+    How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
