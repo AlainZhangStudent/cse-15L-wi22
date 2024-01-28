@@ -55,29 +55,27 @@ class ChatServer {
 ```
 2 screenshots using /add-message
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labs2s1.png)
 
+The methods being called are ```main```, which runs the program, and ```handleRequest``` which handles the incoming HTTP requests. The relevant arguments for main are Strings[] args which represent the command line arguments, and the values of relevant fields are the port variable which is initialized based on the port number given in the args. The port variable is set to the integer value parsed from the command line. The relevant arguments for handRequest method are the URI url, type URI. and the field tracker accumulates the messages by users and errors. The field changes when something is posted to the url query and it gets appended to the tracker variable when using the right format. 
 
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labs2s2.png)
 
-
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport1folder/ls.png)
-
-
-Which methods in your code are called?
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+Same explanation as above except in action, the tracker variable is tracking the messages inputted as shown in the image.
 
 Part 2:
 
 Here is the absolute path to the private key for the SSH key
 
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/absolutepath.jpg)
+
 Here is the absolute path to the public key for the SSH key
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/absolutepathpublic.jpg)
 
 Here is the terminal interaction where I login
 
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/sshlogin.jpg)
 
 Part 3:
 
