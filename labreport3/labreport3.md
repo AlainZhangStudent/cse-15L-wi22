@@ -1,4 +1,4 @@
-Part 1:
+Part 1: Bugs
 
 ```
 import static org.junit.Assert.*;
@@ -74,3 +74,71 @@ static double averageWithoutLowest(double[] arr) {
 The bug was caused by incorrect division in the averageWithoutLowest method, where the length of the array minus one was used instead of the actual length of the array. 
 This caused incorrect average calculation in cases where the lowest number was excluded. 
 The fix addresses the issue by using the correct length of the array for the division, ensuring that the average is calculated accurately.
+
+Part 2: Researching Commands
+
+Command: grep
+
+Option: -r (recursive)
+
+Source: I found information about this option in the manual page for grep (man grep) and also from various online tutorials and documentation.
+
+Description: This option allows grep to recursively search through directories and subdirectories for a specified pattern in files.
+
+bash
+Copy code
+grep -r "search_term" ./technical
+Output: This command searches for the pattern "search_term" recursively within the ./technical directory, including all subdirectories.
+
+bash
+Copy code
+grep -r "error" ./technical
+Output: This command recursively searches for the word "error" within the ./technical directory and its subdirectories, useful for quickly finding error messages in log files or source code.
+
+Option: -i (ignore case)
+
+Source: Found in the grep manual (man grep) and various online resources.
+
+Description: This option makes grep case-insensitive, so it matches patterns regardless of case.
+
+bash
+Copy code
+grep -i "pattern" file.txt
+Output: This command searches for the pattern "pattern" in file.txt, ignoring the case of the letters.
+
+bash
+Copy code
+grep -i "important" README.md
+Output: This command searches for the word "important" in the README.md file, ignoring case, which can be helpful when you're not sure about the exact capitalization of the word you're searching for.
+
+Option: -v (invert match)
+
+Source: Learned about this option from the grep manual (man grep) and various online tutorials.
+
+Description: This option inverts the sense of matching, displaying lines that do not contain the specified pattern.
+
+bash
+Copy code
+grep -v "exclude_this" file.txt
+Output: This command displays all lines in file.txt that do not contain the pattern "exclude_this".
+
+bash
+Copy code
+grep -v "TODO" ./technical/*.txt
+Output: This command searches for all .txt files in the ./technical directory and its subdirectories, displaying lines that do not contain the string "TODO", which can be useful for filtering out lines that don't need attention.
+
+Option: -E (extended regular expressions)
+
+Source: Found in the grep manual (man grep) and various online documentation.
+
+Description: This option enables the use of extended regular expressions in grep, providing more advanced pattern matching capabilities.
+
+bash
+Copy code
+grep -E "pattern1|pattern2" file.txt
+Output: This command searches for lines in file.txt containing either "pattern1" or "pattern2" using extended regular expressions.
+
+bash
+Copy code
+grep -E "\b\d{3}-\d{3}-\d{4}\b" contacts.txt
+Output: This command searches for lines in contacts.txt containing phone numbers in the format XXX-XXX-XXXX, using an extended regular expression to ensure precise matching.
