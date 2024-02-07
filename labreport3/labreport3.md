@@ -77,23 +77,29 @@ The fix addresses the issue by using the correct length of the array for the div
 
 Part 2: Researching Commands
 
-Command: grep
+I'm choosing the command grep. The 4 interesting options/alternate ways to use them I am exploring are:
+-r (recursive), -i (case insensitive), -v (exclude pattern), and -E (extended regular expression). Something cool is that "grep -E is for extended regular expressions whereas -e is for basic regular expressions."
 
-Option: -r (recursive)
+https://stackoverflow.com/questions/17130299/whats-the-difference-between-grep-e-and-grep-e
 
-Source: I found information about this option in the manual page for grep (man grep) and also from various online tutorials and documentation.
+Source: 2.1.6 File and Directory Selection in https://www.gnu.org/software/grep/manual/grep.html
 
-Description: This option allows grep to recursively search through directories and subdirectories for a specified pattern in files.
+The -r (recursive) argument makes grep recursively search through directories and subdirectories for a specific pattern in files.
 
-bash
-Copy code
+Chatgpt: write an example of grep -r using ./technical directory
+Output code:
+```
 grep -r "search_term" ./technical
-Output: This command searches for the pattern "search_term" recursively within the ./technical directory, including all subdirectories.
+```
 
-bash
-Copy code
-grep -r "error" ./technical
-Output: This command recursively searches for the word "error" within the ./technical directory and its subdirectories, useful for quickly finding error messages in log files or source code.
+In the example above, grep searched for "search_term" recursively within the technical directory and all subdirectories, which is useful when you want to find a matching data stream in the specified directory and its subdirectories.
+
+Chatgpt: write another example of grep -r using a different directory
+Output code:
+```
+grep -r "search_term" .
+```
+This second example, grep recursively searches for the word "error" within the ```pwd``` directory and its subdirectories, useful for quickly finding mssages that say "error" in files.
 
 Option: -i (ignore case)
 
@@ -138,7 +144,6 @@ Copy code
 grep -E "pattern1|pattern2" file.txt
 Output: This command searches for lines in file.txt containing either "pattern1" or "pattern2" using extended regular expressions.
 
-bash
 Copy code
 grep -E "\b\d{3}-\d{3}-\d{4}\b" contacts.txt
 Output: This command searches for lines in contacts.txt containing phone numbers in the format XXX-XXX-XXXX, using an extended regular expression to ensure precise matching.
