@@ -6,3 +6,5 @@ Hello World
 
 [Lab Report 2](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/labreport2)
 
+[Lab Report 3](https://alainzhangstudent.github.io/cse-15L-wi22/labreport3/labreport3)
+
