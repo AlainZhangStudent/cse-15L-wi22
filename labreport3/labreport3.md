@@ -6,18 +6,22 @@ import org.junit.*;
 
 public class ArrayTests {
 	@Test 
-	public void testAverageWithoutLowestFailure() {
-    double[] input1 = { 3, 1, 5 };
-    assertEquals(4.0, ArrayExamples.averageWithoutLowest(input1), 0.001);
+	public void testReverseInPlace() {
+    int[] input1 = { 3, 2, 1 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 1, 2, 3 }, input1);
 	}
 
-  @Test 
-	public void testAverageWithoutLowestSuccess() {
-    double[] input2 = { 3, 1, 5, 7 };
-    assertEquals(5.0, ArrayExamples.averageWithoutLowest(input2), 0.001);
-	}
+
+  @Test
+  public void testReversed() {
+    int[] input1 = { 1 };
+    assertArrayEquals(new int[]{ 1 }, ArrayExamples.reversed(input1));
+  }
 }
 ```
+output:
+ 
 Non-failure inducing:
 ```
 import static org.junit.Assert.*;
@@ -25,22 +29,24 @@ import org.junit.*;
 
 public class ArrayTests {
   @Test 
-  public void testAverageWithoutLowestFailure() {
-    double[] input1 = { 3, 1, 5 };
-    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.001);
-  }
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
 
-  @Test 
-  public void testAverageWithoutLowestSuccess() {
-    double[] input2 = { 3, 1, 5, 7 };
-    assertEquals(4.666, ArrayExamples.averageWithoutLowest(input2), 0.001);
+
+    @Test
+    public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 }
 ```
 
 The symptom of the issue will be apparent from the output of running the JUnit tests. 
-The testAverageWithoutLowestFailure test should fail with the provided buggy implementation, 
-whereas the testAverageWithoutLowestSuccess test will pass.
+The testReversed test and testReverseInPlace should fail with the provided buggy implementation, 
+whereas the non-failure tests will pass given the buggy implementation.
 
 Fixes:
 ```
