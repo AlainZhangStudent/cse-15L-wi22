@@ -21,7 +21,9 @@ public class ArrayTests {
 }
 ```
 output:
- 
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/lab2s1.png)
+
 Non-failure inducing:
 ```
 import static org.junit.Assert.*;
@@ -43,6 +45,9 @@ public class ArrayTests {
   }
 }
 ```
+output:
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/lab2s1.png)
 
 The symptom of the issue will be apparent from the output of running the JUnit tests. 
 The testReversed test and testReverseInPlace should fail with the provided buggy implementation, 
