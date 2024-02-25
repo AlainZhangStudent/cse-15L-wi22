@@ -5,14 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3, 2, 1 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 1, 2, 3 }, input1);
-	}
-
-
   @Test
   public void testReversed() {
     int[] input1 = { 1 };
@@ -22,7 +14,7 @@ public class ArrayTests {
 ```
 output:
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/lab2s1.png)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport3/lab3s1.jpg)
 
 Non-failure inducing:
 ```
@@ -30,14 +22,6 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
-  @Test 
-	public void testReverseInPlace() {
-    int[] input1 = { 3 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
-	}
-
-
     @Test
     public void testReversed() {
     int[] input1 = { };
@@ -47,28 +31,25 @@ public class ArrayTests {
 ```
 output:
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport2/lab2s1.png)
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport3/lab3s2.jpg)
 
 The symptom of the issue will be apparent from the output of running the JUnit tests. 
 The testReversed test and testReverseInPlace should fail with the provided buggy implementation, 
 whereas the non-failure tests will pass given the buggy implementation.
 
 Fixes:
+Before when buggy
 ```
-static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1); //should be arr.length since we're considering all elements except the lowest
-}
+    return arr;
+  }
 ```
-
+After when fixed
 ```
 static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
