@@ -39,6 +39,7 @@ The testReversed test and testReverseInPlace should fail with the provided buggy
 whereas the non-failure tests will pass given the buggy implementation.
 
 Fixes:
+
 Before when buggy
 ```
 static int[] reversed(int[] arr) {
