@@ -51,22 +51,18 @@ static int[] reversed(int[] arr) {
 ```
 After when fixed
 ```
-static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
     }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / arr.length; //fix division using arr.length instead of (arr.length - 1)
+    return newArray;
+  }
 }
 ```
-The bug was caused by incorrect division in the averageWithoutLowest method, where the length of the array minus one was used instead of the actual length of the array. 
-This caused incorrect average calculation in cases where the lowest number was excluded. 
-The fix addresses the issue by using the correct length of the array for the division, ensuring that the average is calculated accurately.
+The bug in the second reversed method arises from incorrect assignment of values. Within the for loop, each element of the original array arr is assigned to the corresponding index in the newArray, but with reversed indices. However, instead of assigning the reversed value of arr[i] to newArray[i], the code assigns the reversed value of newArray[i] to arr[i]. This results in arr containing the reversed values of newArray, which were initially all zeros, effectively overwriting the original values of arr.
+
+The fix involves correctly assigning the reversed values of arr to newArray, ensuring that the original values of arr are preserved. By adjusting the assignment within the for loop to newArray[i] = arr[arr.length - i - 1];, the reversed values of arr are correctly stored in newArray, resolving the bug and preserving the integrity of the original array.
 
 Part 2: Researching Commands
 
