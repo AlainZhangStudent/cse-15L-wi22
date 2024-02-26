@@ -65,6 +65,8 @@ The bug in the second reversed method arises from incorrect assignment of values
 
 The fix involves correctly assigning the reversed values of arr to newArray, ensuring that the original values of arr are preserved. By adjusting the assignment within the for loop to newArray[i] = arr[arr.length - i - 1];, the reversed values of arr are correctly stored in newArray, resolving the bug and preserving the integrity of the original array.
 
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport3/lab3s3.jpg)
+
 Part 2: Researching Commands
 
 I'm choosing the command grep. The 4 interesting options/alternate ways to use them I am exploring are:
