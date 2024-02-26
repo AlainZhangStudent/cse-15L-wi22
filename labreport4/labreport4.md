@@ -1,5 +1,5 @@
 SSH into the Server:
-Keys Pressed: <s><s><h> <a> <t> <z> <0> <0> <1> <enter>
+Keys Pressed: ```<s><s><h> <a> <t> <z> <0> <0> <1> <enter>```
 Explanation: Typed 'ssh atz001@ieng6.ucsd.edu' and pressed <enter> to connect to the server.
 
 Clone the Git Repository:
@@ -23,8 +23,6 @@ Explanation: Typed 'java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar or
 Edit File:
 Keys Pressed: <v><i><m><space>l<i><s><t><e><x><a><m><p><l><e><s><.><j><a><v><a><enter>
 Explanation: Opened the file 'listexamples.java' in Vim by typing 'vim listexamples.java' and pressed <enter>.
-
-Here's the formatted information for navigating and editing in Vim:
 
 Navigate and Edit in Vim:
 Keys Pressed: /<i>n<i>d<i>e<i>x><1> <down> <j> <h> <h> <h> <h> <h> <h> <i> <2> <esc> :<w><q> <enter>
@@ -51,3 +49,6 @@ Explanation: Typed 'git commit
 Git Push:
 Keys Pressed: <g><i><t><space><p><u><s><h><enter>
 Explanation: Typed 'git push' and pressed <enter> to push the changes to the remote repository.
+
+Sources
+Chatgpt: Helped me format my lab document using angle brackets for commands
