@@ -61,9 +61,9 @@ static int[] reversed(int[] arr) {
   }
 }
 ```
-The bug in the second reversed method arises from the incorrect assignment of values. Within the for loop, each element of the original array arr is assigned to the corresponding index in the newArray, but with reversed indices. However, instead of assigning the reversed value of arr[i] to newArray[i], the code assigns the reversed value of newArray[i] to arr[i]. This results in arr containing the reversed values of newArray, which were initially all zeros, effectively overwriting the original values of arr.
+The bug in the second reversed method arises from the incorrect assignment of values. Within the for loop, each element of the original array ```arr``` is assigned to the corresponding ```index``` in the ```newArray```, but with reversed indices. However, instead of assigning the reversed value of ```arr[i]``` to ```newArray[i]```, the code assigns the reversed value of ```newArray[i]``` to ```arr[i]```. This results in arr containing the reversed values of newArray, which were initially all zeros, effectively overwriting the original values of arr.
 
-The fix involves correctly assigning the reversed values of arr to newArray, ensuring that the original values of arr are preserved. Adjusting the assignment within the for loop to newArray[i] = arr[arr.length - i - 1];, the reversed values of arr are correctly stored in newArray, resolving the bug and preserving the integrity of the original array.
+The fix involves correctly assigning the reversed values of ```arr``` to ```newArray```, ensuring that the original values of ```arr``` are preserved. Adjusting the assignment within the for loop to ```newArray[i] = arr[arr.length - i - 1]```;, the reversed values of ```arr``` are correctly stored in ```newArray```, resolving the bug and preserving the integrity of the original array.
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport3/lab3s3.jpg)
 
