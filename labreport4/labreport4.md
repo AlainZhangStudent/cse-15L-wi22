@@ -18,6 +18,8 @@ Run JUnit Tests:
 Keys Pressed: <j><a><v><a><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>o><r><g><.<j><u><n><i><t>.<r><u><n><n><e><r>.<J><U><n><i><t>C><o><r><e><space><L><i><s><t><E><x><a><m><p><l><e><s><T><e><s><t><s><enter>
 Explanation: Typed 'java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests' and pressed <enter> to run the JUnit tests.
 
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s1.jpg)
+
 Edit File:
 Keys Pressed: <v><i><m><space>l<i><s><t><e><x><a><m><p><l><e><s><.><j><a><v><a><enter>
 Explanation: Opened the file 'listexamples.java' in Vim by typing 'vim listexamples.java' and pressed <enter>.
@@ -35,6 +37,8 @@ Explanation: Typed 'javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *
 Run JUnit Tests Again:
 Keys Pressed: <j><a><v><a><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>o><r><g><.<j><u><n><i><t>.<r><u><n><n><e><r>.<J><U><n><i><t>C><o><r><e><space><L><i><s><t><E><x><a><m><p><l><e><s><T><e><s><t><s><enter>
 Explanation: Typed 'java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests' and pressed <enter> to run the JUnit tests again.
+
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s2.jpg)
 
 Stage Changes:
 Keys Pressed: <g><i><t><space><a><d><d><space><.><enter>
