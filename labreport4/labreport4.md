@@ -3,7 +3,7 @@ Keys Pressed: ```ssh atz001@ieng6-201.ucsd.edu <enter>```
 Explanation: Typed ```ssh atz001@ieng6.ucsd.edu``` and pressed <enter> to connect to the server.
 
 Clone the Git Repository:
-Keys Pressed: ```git <space> clone <space> git<@>github<.>com<:>AlainZhangStudent</>lab7<period>git <enter>```
+Keys Pressed: ```git <space> clone <space> git<@>github<period>com<colon>AlainZhangStudent</>lab7<period>git <enter>```
 Explanation: Typed ```git clone git@github.com:AlainZhangStudent/lab7.git``` and pressed <enter> to clone the Git repository using ```ssh```.
 
 Change Directory:
