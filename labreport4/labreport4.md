@@ -1,14 +1,14 @@
 SSH into the Server:
 Keys Pressed: ```ssh atz001@ieng6-201.ucsd.edu <enter>```
-Explanation: Typed 'ssh atz001@ieng6.ucsd.edu' and pressed <enter> to connect to the server.
+Explanation: Typed ```ssh atz001@ieng6.ucsd.edu``` and pressed <enter> to connect to the server.
 
 Clone the Git Repository:
 Keys Pressed: ```git <space> clone <space> git<@>github<.>com<:>AlainZhangStudent</>lab7<.>git <enter>```
-Explanation: Typed 'git clone git@github.com:AlainZhangStudent/lab7.git' and pressed <enter> to clone the Git repository using ssh.
+Explanation: Typed ```git clone git@github.com:AlainZhangStudent/lab7.git``` and pressed <enter> to clone the Git repository using ```ssh```.
 
 Change Directory:
-Keys Pressed: ```<c><d><space><l><a><b><7><enter>```
-Explanation: Changed directory to 'lab7' by typing 'cd lab7' and pressing <enter>.
+Keys Pressed: ```cd <space> lab7 <enter>```
+Explanation: Changed directory to ```lab7``` by typing ```cd lab7``` and pressing <enter>.
 
 Compile Java Files:
 Keys Pressed: ```<j><a><v><a><c><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>*.<j><a><v><a><enter>```
