@@ -1,10 +1,10 @@
 SSH into the Server:
-Keys Pressed: ```<s><s><h> <a> <t> <z> <0> <0> <1> <enter>```
+Keys Pressed: ```ssh atz001@ieng6-201.ucsd.edu <enter>```
 Explanation: Typed 'ssh atz001@ieng6.ucsd.edu' and pressed <enter> to connect to the server.
 
 Clone the Git Repository:
-Keys Pressed: ```<g><i><t><space><c><l><o><n><e><space><g><i><t><@><g><i><t><h><u><b><.><c><o><m>:<A><l><a><i><n><Z><h><a><n><g><S><t><u><d><e><n><t>/<l><a><b><7>.<g><i><t><enter>```
-Explanation: Typed 'git clone git@github.com:AlainZhangStudent/lab7.git' and pressed <enter> to clone the Git repository.
+Keys Pressed: ```git <space> clone <space> git<@>github<.>com<:>AlainZhangStudent</>lab7<.>git <enter>```
+Explanation: Typed 'git clone git@github.com:AlainZhangStudent/lab7.git' and pressed <enter> to clone the Git repository using ssh.
 
 Change Directory:
 Keys Pressed: ```<c><d><space><l><a><b><7><enter>```
