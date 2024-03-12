@@ -28,6 +28,7 @@ Edit File:
 Keys Pressed: ```<v><i><m><space>L<i><s><t><E><x><a><m><p><l><e><s><.><j><a><v><a><enter>```
 Explanation: Opened the file ```ListExamples.java``` in ```vim``` by typing ```vim ListExamples.java``` and pressed ```<enter>```.
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/)
+add vim screenshot
 
 Navigate and Edit in Vim:
 Keys Pressed: ```/<i>n<i>d<i>e<i>x><1> <down> <j> <h> <h> <h> <h> <h> <h> <i> <2> <esc> :<w><q> <enter>```
