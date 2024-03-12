@@ -3,7 +3,7 @@ Keys Pressed: ```ssh atz001@ieng6-201.ucsd.edu <enter>```
 Explanation: Typed ```ssh atz001@ieng6.ucsd.edu``` and pressed <enter> to connect to the server.
 
 Clone the Git Repository:
-Keys Pressed: ```git <space> clone <space> git<@>github<.>com<:>AlainZhangStudent</>lab7<.>git <enter>```
+Keys Pressed: ```git <space> clone <space> git<@>github<.>com<:>AlainZhangStudent</>lab7<period>git <enter>```
 Explanation: Typed ```git clone git@github.com:AlainZhangStudent/lab7.git``` and pressed <enter> to clone the Git repository using ```ssh```.
 
 Change Directory:
@@ -11,7 +11,7 @@ Keys Pressed: ```cd <space> lab7 <enter>```
 Explanation: Changed directory to ```lab7``` by typing ```cd lab7``` and pressing <enter>.
 
 Compile Java Files:
-Keys Pressed: ```<j><a><v><a><c><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>*.<j><a><v><a><enter>```
+Keys Pressed: ```javac<space><dash>cp<space><period><colon>lib<slash>hamcrest<dash>core<dash>1<period>1<.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>*.<j><a><v><a><enter>```
 Explanation: Typed 'javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java' and pressed <enter> to compile the Java files.
 
 Run JUnit Tests:
