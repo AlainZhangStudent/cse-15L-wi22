@@ -11,18 +11,25 @@ Thanks for reaching out! Could you try adding some print statements in your code
 You can use System.out.println() for this purpose.
 Let me know what you find!
 
-Student's Follow-up Comment: Thanks for the suggestion! I added print statements to check the numbers as they're being read from the file, and it turns out they're all being read right, but returns as the average 0. 
+Student's Follow-up Comment: Thanks for the suggestion! I added print statements to check the numbers as they're being read from the file, and it turns out they're all being read right, but returns as the average 1. 
 Here's a screenshot of the updated code and the terminal output showing the numbers being read. Any ideas on why this might be happening?
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport5/lab5s2.jpg)
 
-From here we can't really tell much besides that the numbers, in fact, are being read. This is an example of a student
-who only provided the symptoms and inputs, but not the bug (code) itself.
+```
+while (scanner.hasNextDouble()) {
+                double num = scanner.nextDouble();
+                System.out.println("Read number: " + num); // Added print statement for debugging
+                sum += num;
+                count++;
+            }
+            double average = sum / sum; 
+            System.out.println("Average: " + average);
+```
 
 TA's Reponse:
 You can probably use jdb to debug the sepcific variable, but try using vim to open up the file and go to
-the specific line where the average is affected so you won't have to step through everything. Without further
-context our hands are tied.
+the specific line where the average is affected so you won't have to step through everything. You have everything you need to solve this, however :-)
 
 Files needed: ```run.sh file, numbers.txt and Main.java ```
 Directory structure: ```run.sh, numbers.txt, and Main.java``` being in the same directory, doesn't matter where so long as 
