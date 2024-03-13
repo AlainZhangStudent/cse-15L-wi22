@@ -38,7 +38,7 @@ Explanation: Moved to the 'index1' position using ```/index1```, navigated down 
 Compile Again:
 Keys Pressed: ```<j><a><v><a><c><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>*.<j><a><v><a><enter>```
 Explanation: Typed ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and pressed ```<enter>``` to compile the Java files again.
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s9.jpg)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s6.jpg)
 
 Run JUnit Tests Again:
 Keys Pressed: ```<j><a><v><a><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>o><r><g><.<j><u><n><i><t>.<r><u><n><n><e><r>.<J><U><n><i><t>C><o><r><e><space><L><i><s><t><E><x><a><m><p><l><e><s><T><e><s><t><s><enter>```
