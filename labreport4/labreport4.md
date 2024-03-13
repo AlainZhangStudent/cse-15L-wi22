@@ -60,7 +60,7 @@ Explanation: Typed ```git add .``` and pressed ```<enter>``` to stage the change
 
 Commit Changes:
 Keys Pressed: ```<g><i><t><space><c><o><m><m><i><t><space><-><m><space><"><r><i><d><space><o><f><space><e><r><r><o><r><space>i><n><d><e><x><1><space><t><o><space>2><"><enter>```
-Explanation: Typed ```git commit -m "rid of error in index1 to 2"``` to commit changes in local repository.
+Explanation: Typed ```git commit -m "rid of error in index1 to 2"``` and pressed ```<enter>``` to commit changes in local repository.
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s10.jpg)
 
