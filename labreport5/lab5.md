@@ -82,5 +82,5 @@ In order to fix the bug, the average shouldn't be dividing the sum by the sum, b
 
 Part 2:
 I learned that I genuinely don't like lab. Too much busywork for very little payoff; I feel like homeworks are more valuable than writing lab reports.
-Otherwise, I enjoyed the lab activities, and I got to learn more about local hosting as well as the tutors who are very chill. I know they have to do what they gotta do
+Otherwise, I enjoyed the lab activities, and I got to learn more about local hosting, git commands, as well as the tutors who are very chill. I know they have to do what they gotta do
 but I wish they made my life a little easier on the reports. :')
