@@ -20,6 +20,7 @@ Files needed: ```run.sh file, numbers.txt and Main.java ```
 Directory structure: ```run.sh, numbers.txt, and Main.java``` being in the same directory, doesn't matter where so long as 
 it can execute and write
 
+Before fixing:
 Content of Main.java:
 ```
 import java.io.File;
@@ -39,7 +40,7 @@ public class Main {
                 sum += num;
                 count++;
             }
-            double average = sum / sum; 
+            double average = sum / sum; // The error in question HAHAAHA
             System.out.println("Average: " + average);
             scanner.close();
         } catch (FileNotFoundException e) {
@@ -61,7 +62,7 @@ After creating a numbers.txt with a number on each new line, use javac Main.java
 ```touch numbers.txt``` -> ```vim numbers.txt``` -> ```i 23 28 32 esc :wq``` -> ```javac Main.java``` -> ```java Main.java```
 Running a program like this will trigger the bug.
 
-In order to fix the bug, the average shouldn't be dividing the sum by the sum, but rather the sum by the count in order to get the average.
+In order to fix the bug, the average shouldn't be dividing the sum by the sum, but rather the sum by the count in order to get the average. Then, it should return the average and not just 1.
 
 Part 2:
 I learned that I genuinely don't like lab. Too much busywork for very little payoff; I feel like homeworks are more valuable than writing lab reports.
