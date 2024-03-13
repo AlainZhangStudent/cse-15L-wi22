@@ -16,6 +16,14 @@ Here's a screenshot of the updated code and the terminal output showing the numb
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport5/lab5s2.jpg)
 
+From here we can't really tell much besides that the numbers, in fact, are being read. This is an example of a student
+who only provided the symptoms and inputs, but not the bug (code) itself.
+
+TA's Reponse:
+You can probably use jdb to debug the sepcific variable, but try using vim to open up the file and go to
+the specific line where the average is affected so you won't have to step through everything. Without further
+context our hands are tied.
+
 Files needed: ```run.sh file, numbers.txt and Main.java ```
 Directory structure: ```run.sh, numbers.txt, and Main.java``` being in the same directory, doesn't matter where so long as 
 it can execute and write
@@ -58,6 +66,7 @@ Content of run.sh:```
 javac Main.java
 java Main```
 
+Setup:
 After creating a numbers.txt with a number on each new line, use javac Main.java and then java Main to run the program. So like, 
 ```touch numbers.txt``` -> ```vim numbers.txt``` -> ```i 23 28 32 esc :wq``` -> ```javac Main.java``` -> ```java Main.java```
 Running a program like this will trigger the bug.
