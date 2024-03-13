@@ -10,5 +10,5 @@ Hello World
 
 [Lab Report 4](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/labreport4)
 
-[Lab Report 5](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/labreport5)
+[Lab Report 5](https://alainzhangstudent.github.io/cse-15L-wi22/labreport5/labreport5)
 
