@@ -4,7 +4,7 @@ Student's Original Post: Hey everyone,
 I'm encountering a strange issue with my Java program. It's supposed to read a list of numbers from a file and calculate their average, but it seems like the average is always coming out as zero, even though I know the numbers in the file are valid. 
 I've attached a screenshot of the code and the output showing the average as 1. Can anyone help me figure out what's going wrong?
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab5s1.jpg)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport5/lab5s1.jpg)
 
 TA's Response: Hey there,
 Thanks for reaching out! Could you try adding some print statements in your code to see if the values are being read correctly from the file? Maybe try printing each number as you read it to ensure they're being processed properly. 
@@ -14,7 +14,7 @@ Let me know what you find!
 Student's Follow-up Comment: Thanks for the suggestion! I added print statements to check the numbers as they're being read from the file, and it turns out they're all being read right, but returns as the average 0. 
 Here's a screenshot of the updated code and the terminal output showing the numbers being read. Any ideas on why this might be happening?
 
-![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab5s2.jpg)
+![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport5/lab5s2.jpg)
 
 Files needed: ```run.sh file, numbers.txt and Main.java ```
 Directory structure: ```run.sh, numbers.txt, and Main.java``` being in the same directory, doesn't matter where so long as 
