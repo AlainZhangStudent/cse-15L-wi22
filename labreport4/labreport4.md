@@ -1,5 +1,5 @@
 SSH into the Server:
-Keys Pressed: ```<s><s><h> <a> <t> <z> <0> <0> <1> <enter>```
+Keys Pressed: ```<s><s><h> <space> <a> <t> <z> <0> <0> <1>@ieng6-201.ucsd.edu <space> <enter>```
 Explanation: Typed ```ssh atz001@ieng6.ucsd.edu``` and pressed ```<enter>``` to connect to the server.
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/)
 
