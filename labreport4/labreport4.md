@@ -36,13 +36,13 @@ Explanation: Opened the file ```ListExamples.java``` in ```vim``` by typing ```v
 
 Navigate and Edit in Vim:
 Keys Pressed: ```/<i>n<i>d<i>e<i>x><1> <down> <j> <h> <h> <h> <h> <h> <h> <i> <2> <esc> :<w><q> <enter>```
-Explanation: Moved to the 'index1' position using ```/index1```, navigated down one line with ```<down>```, pressed j to move down further, pressed h multiple times to move the cursor left, then pressed i to enter insert mode, typed 2 to insert the number 2, pressed ```<esc>``` to exit insert mode, and finally saved and exited ```vim``` by typing ```:wq``` and pressing ```<enter>```.
+Explanation: Moved to the ```index1``` position using ```/index1```, navigated down one line with ```<down>```, pressed ```j``` to move down further, pressed ```h``` multiple times to move the cursor left, then pressed ```i``` to enter ```insert``` mode, typed ```2``` to insert the number ```2```, pressed ```<esc>``` to ```exit``` ```insert``` mode, and finally saved and exited ```vim``` by typing ```:wq``` and pressing ```<enter>```.
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s8.jpg)
 
 Compile Again:
 Keys Pressed: ```<j><a><v><a><c><space><-><c><p><space><.><colon>l<i><b>/<h><a><m><c><r><e><s><t><-><c><o><r><e><-><1><.><3><.><j><a><r>:<l><i><b>/<j><u><n><i><t><-><4><.><1><3><.><2><.><j><a><r><space>*.<j><a><v><a><enter>```
-Explanation: Typed ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and pressed ```<enter>``` to compile the Java files again.
+Explanation: Typed ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and pressed ```<enter>``` to compile the ```Java``` files again.
 
 ![Image](https://alainzhangstudent.github.io/cse-15L-wi22/labreport4/lab4s6.jpg)
 
